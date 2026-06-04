@@ -18,25 +18,25 @@ interface MapCountry {
 }
 
 const SHIPPED_COUNTRIES: MapCountry[] = [
-  { name: "USA", x: 22, y: 36, transitTime: "2-3 Days (Next-Day Priority)", majorHub: "New York (JFK) / Los Angeles (LAX)", couriers: ["DHL", "FedEx", "UPS"], zone: "North America" },
+  { name: "USA", x: 22, y: 36, transitTime: "3-4 Days", majorHub: "New York (JFK) / Los Angeles (LAX)", couriers: ["DHL", "FedEx", "UPS"], zone: "North America" },
   { name: "Canada", x: 20, y: 25, transitTime: "3-4 Days", majorHub: "Toronto (YYZ) / Vancouver (YVR)", couriers: ["DHL", "UPS"], zone: "North America" },
-  { name: "United Kingdom", x: 45, y: 26, transitTime: "2-3 Days (Next-Day Priority)", majorHub: "London Heathrow (LHR)", couriers: ["DHL", "FedEx", "Atlantic"], zone: "Europe" },
-  { name: "Germany", x: 49, y: 29, transitTime: "3 Days", majorHub: "Frankfurt (FRA)", couriers: ["DHL", "FedEx", "Aramex"], zone: "Europe" },
-  { name: "Australia", x: 84, y: 74, transitTime: "3-4 Days", majorHub: "Sydney (SYD) / Melbourne (MEL)", couriers: ["UPS", "DHL", "Shipwala"], zone: "Oceania" },
-  { name: "France", x: 46, y: 32, transitTime: "3 Days", majorHub: "Paris CDG", couriers: ["DHL", "UPS", "Atlantic"], zone: "Europe" },
-  { name: "Italy", x: 50, y: 35, transitTime: "3-4 Days", majorHub: "Milan Malpensa (MXP)", couriers: ["DHL", "FedEx"], zone: "Europe" },
-  { name: "Spain", x: 44, y: 37, transitTime: "3-4 Days", majorHub: "Madrid Barajas (MAD)", couriers: ["DHL", "Aramex"], zone: "Europe" },
-  { name: "Netherlands", x: 48, y: 28, transitTime: "3 Days", majorHub: "Amsterdam Schiphol (AMS)", couriers: ["FedEx", "UPS"], zone: "Europe" },
-  { name: "Sweden", x: 51, y: 19, transitTime: "4 Days", majorHub: "Stockholm Arlanda (ARN)", couriers: ["DHL", "Atlantic"], zone: "Europe" },
-  { name: "Norway", x: 49, y: 17, transitTime: "4 Days", majorHub: "Oslo Gardermoen (OSL)", couriers: ["FedEx", "UPS"], zone: "Europe" },
-  { name: "Denmark", x: 49, y: 23, transitTime: "3-4 Days", majorHub: "Copenhagen (CPH)", couriers: ["DHL", "DTDC"], zone: "Europe" },
-  { name: "Belgium", x: 47, y: 30, transitTime: "3 Days", majorHub: "Brussels Cargo (BRU)", couriers: ["FedEx", "UPS"], zone: "Europe" },
-  { name: "Switzerland", x: 49, y: 32, transitTime: "3 Days", majorHub: "Zurich (ZRH)", couriers: ["DHL", "Aramex"], zone: "Europe" },
-  { name: "Ireland", x: 41, y: 26, transitTime: "3 Days", majorHub: "Dublin Airport (DUB)", couriers: ["DHL", "Atlantic"], zone: "Europe" },
-  { name: "Austria", x: 51, y: 31, transitTime: "3-4 Days", majorHub: "Vienna Schwechat (VIE)", couriers: ["FedEx", "DTDC"], zone: "Europe" },
-  { name: "Portugal", x: 41, y: 39, transitTime: "4 Days", majorHub: "Lisbon Portela (LIS)", couriers: ["DHL", "UPS"], zone: "Europe" },
-  { name: "Finland", x: 54, y: 17, transitTime: "4 Days", majorHub: "Helsinki Vantaa (HEL)", couriers: ["DHL", "Shipwala"], zone: "Europe" },
-  { name: "Poland", x: 52, y: 28, transitTime: "4 Days", majorHub: "Warsaw Chopin (WAW)", couriers: ["FedEx", "Atlantic"], zone: "Europe" }
+  { name: "United Kingdom", x: 45, y: 26, transitTime: "5 Days", majorHub: "London Heathrow (LHR)", couriers: ["DHL", "FedEx", "Atlantic"], zone: "Europe" },
+  { name: "Germany", x: 49, y: 29, transitTime: "1 Week to 10 Days", majorHub: "Frankfurt (FRA)", couriers: ["DHL", "FedEx", "Aramex"], zone: "Europe" },
+  { name: "Australia", x: 84, y: 74, transitTime: "1 Week", majorHub: "Sydney (SYD) / Melbourne (MEL)", couriers: ["UPS", "DHL", "Shipwala"], zone: "Oceania" },
+  { name: "France", x: 46, y: 32, transitTime: "1 Week to 10 Days", majorHub: "Paris CDG", couriers: ["DHL", "UPS", "Atlantic"], zone: "Europe" },
+  { name: "Italy", x: 50, y: 35, transitTime: "1 Week to 10 Days", majorHub: "Milan Malpensa (MXP)", couriers: ["DHL", "FedEx"], zone: "Europe" },
+  { name: "Spain", x: 44, y: 37, transitTime: "1 Week to 10 Days", majorHub: "Madrid Barajas (MAD)", couriers: ["DHL", "Aramex"], zone: "Europe" },
+  { name: "Netherlands", x: 48, y: 28, transitTime: "1 Week to 10 Days", majorHub: "Amsterdam Schiphol (AMS)", couriers: ["FedEx", "UPS"], zone: "Europe" },
+  { name: "Sweden", x: 51, y: 19, transitTime: "1 Week to 10 Days", majorHub: "Stockholm Arlanda (ARN)", couriers: ["DHL", "Atlantic"], zone: "Europe" },
+  { name: "Norway", x: 49, y: 17, transitTime: "1 Week to 10 Days", majorHub: "Oslo Gardermoen (OSL)", couriers: ["FedEx", "UPS"], zone: "Europe" },
+  { name: "Denmark", x: 49, y: 23, transitTime: "1 Week to 10 Days", majorHub: "Copenhagen (CPH)", couriers: ["DHL", "DTDC"], zone: "Europe" },
+  { name: "Belgium", x: 47, y: 30, transitTime: "1 Week to 10 Days", majorHub: "Brussels Cargo (BRU)", couriers: ["FedEx", "UPS"], zone: "Europe" },
+  { name: "Switzerland", x: 49, y: 32, transitTime: "1 Week to 10 Days", majorHub: "Zurich (ZRH)", couriers: ["DHL", "Aramex"], zone: "Europe" },
+  { name: "Ireland", x: 41, y: 26, transitTime: "1 Week to 10 Days", majorHub: "Dublin Airport (DUB)", couriers: ["DHL", "Atlantic"], zone: "Europe" },
+  { name: "Austria", x: 51, y: 31, transitTime: "1 Week to 10 Days", majorHub: "Vienna Schwechat (VIE)", couriers: ["FedEx", "DTDC"], zone: "Europe" },
+  { name: "Portugal", x: 41, y: 39, transitTime: "1 Week to 10 Days", majorHub: "Lisbon Portela (LIS)", couriers: ["DHL", "UPS"], zone: "Europe" },
+  { name: "Finland", x: 54, y: 17, transitTime: "1 Week to 10 Days", majorHub: "Helsinki Vantaa (HEL)", couriers: ["DHL", "Shipwala"], zone: "Europe" },
+  { name: "Poland", x: 52, y: 28, transitTime: "1 Week to 10 Days", majorHub: "Warsaw Chopin (WAW)", couriers: ["FedEx", "Atlantic"], zone: "Europe" }
 ];
 
 // Origin point: Hyderabad, India
@@ -93,11 +93,14 @@ export default function WorldMap() {
 
                 {/* Logistics breakdown details */}
                 <div className="space-y-3.5">
-                  <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white border border-slate-200/50 shadow-sm">
+                  <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white border border-slate-200/50 shadow-sm col-span-full">
                     <Clock className="w-5 h-5 text-dhl-red shrink-0 mt-0.5" />
-                    <div>
+                    <div className="flex-1">
                       <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-wider font-mono">Transit Duration</h4>
                       <p className="text-sm font-bold text-dhl-dark font-sans mt-0.5">{activeCountry.transitTime}</p>
+                      <p className="text-[10.5px] text-slate-600 font-sans mt-1.5 leading-relaxed font-semibold">
+                        💡 Duration is estimated. Please <a href="tel:+919573105953" className="text-dhl-red hover:underline font-bold">contact owner Kaleru Veena</a> (+91 9573105953) for the most accurate transit schedules.
+                      </p>
                     </div>
                   </div>
 
@@ -292,7 +295,7 @@ export default function WorldMap() {
                           >
                             <span className="text-dhl-yellow">✈ {country.name}</span>
                             <span className="mx-1 text-slate-400">|</span>
-                            <span className="text-slate-300">{country.transitTime.split(' ')[0]} d</span>
+                            <span className="text-slate-300">{country.transitTime}</span>
                           </motion.div>
                         )}
                       </AnimatePresence>
