@@ -1,0 +1,6 @@
+{
+  "name": "Fastest Air Courier",
+  "description": "Premium next-day international courier and cargo services from India worldwide. Managed by Kaleru Veena with 13+ years of trusted logistics expertise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
